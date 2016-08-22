@@ -7,6 +7,6 @@ module.exports = {
     },
     ports: ["3306:3306"],
     environment: {
-      'MYSQL_ROOT_PASSWORD': 'example'
+      'WORDPRESS_DB_PASSWORD': 'example'
     }
 }
